@@ -1,4 +1,9 @@
 def Part1 ():
+    """ 
+    Function to see when you spin to zero and you return the amount of times you did
+
+    precondition: num is an int between 0-99
+    """
     num = 50 #Start at number 50
 
     count = 0
@@ -24,6 +29,9 @@ def Part1 ():
                 
 
 def Part2():
+    """
+    Count the number of times you pass zero or are on zero
+    """
     num = 50 #Start at number 50
 
     count = 0 #Counts the number of times it passes zero
